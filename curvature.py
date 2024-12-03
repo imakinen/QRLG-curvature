@@ -203,12 +203,12 @@ def derivatives():
 
     def S(e):
         # S(e) is shorthand for the sum d_+(e) + d_-(e)
-        # c(e) = 1/2 * S(e) corresponds to c^{(1)}(e) in the notation of 2412.xxxxx
+        # c(e) = 1/2 * S(e) corresponds to c^{(1)}(e) in the notation of 2412.01375
         return 2 * c(e)
 
     def D(e):
         # D(e) is shorthand for the difference d_+(e) - d_-(e)
-        # s(e) = 1/(2i) * D(e) corresponds to s^{(1)}(e) in the notation of 2412.xxxxx
+        # s(e) = 1/(2i) * D(e) corresponds to s^{(1)}(e) in the notation of 2412.01375
         return 2*I * s(e)
 
     # DE[a, i, b] = \Delta_a E_i(S^b, v)

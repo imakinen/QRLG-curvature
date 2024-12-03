@@ -9,7 +9,7 @@ The program `curvature.py` generates a symbolic expression representing the quan
 ### Options
 
 * `-v, --one-vertex`\
-Generate an expression representing the action of the operator on a one-vertex state. (See section 4.1 of [2412.xxxxx](https://arxiv.org/abs/2412.xxxxx).) By default the action on a generic reduced spin network state is given.
+Generate an expression representing the action of the operator on a one-vertex state. (See section 4.1 of [2412.01375](https://arxiv.org/abs/2412.01375).) By default the action on a generic reduced spin network state is given.
 * `-l, --latex`\
 Format the output as LaTeX code.
 * `-t, --term`\
