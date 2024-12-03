@@ -66,7 +66,7 @@ def fill_permutations(array, symmetric=False):
 
     def substitute(expr, subs):
         '''
-        Performs a group of simultanous substitutions consistently, by first
+        Performs a group of simultaneous substitutions consistently, by first
         substituting each original variable with a dummy variable, and then substituting
         the corresponding target value for each dummy variable.
 
@@ -207,8 +207,8 @@ def derivatives():
         return 2 * c(e)
 
     def D(e):
-        # D(e) is shorthand for the difference d_+(e) + d_-(e)
-        # s(e) = 1/(2i) * S(e) corresponds to s^{(1)}(e) in the notation of 2412.xxxxx
+        # D(e) is shorthand for the difference d_+(e) - d_-(e)
+        # s(e) = 1/(2i) * D(e) corresponds to s^{(1)}(e) in the notation of 2412.xxxxx
         return 2*I * s(e)
 
     # DE[a, i, b] = \Delta_a E_i(S^b, v)
